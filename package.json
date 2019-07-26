@@ -1,21 +1,22 @@
 {
-  "name": "yelpcamp",
+  "name": "v1",
   "version": "1.0.0",
-  "description": "camping_wabsite",
+  "description": "YelpCamp v1",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Amitesh",
+  "author": "Colt Steele",
   "license": "ISC",
   "dependencies": {
-    "body-parser": "^1.19.0",
-    "ejs": "^2.6.1",
-    "express": "^4.16.4",
-    "express-session": "^1.16.2",
-    "mongoose": "^5.5.15",
-    "passport": "^0.4.0",
+    "body-parser": "^1.14.1",
+    "ejs": "^2.3.4",
+    "express": "^4.13.3",
+    "express-session": "^1.11.3",
+    "method-override": "^2.3.5",
+    "mongoose": "^4.1.12",
+    "passport": "^0.3.0",
     "passport-local": "^1.0.0",
-    "passport-local-mongoose": "^5.0.1"
+    "passport-local-mongoose": "^3.1.0"
   }
 }
