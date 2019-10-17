@@ -1,12 +1,12 @@
   #   Yelp Camp
 
-###Overview  
+### Overview  
 it is a fullstack website which consists of a list of campgrounds.these campgrounds are manually entered into database using an input form.
 every user has its own set of campgrounds, this is accomplished by implementing passportjs( An Authentication tool for websites/webapps ).
 each individual campground also has edit and delete functionality.every user who is login to yelp camp can also add comments to the campgrounds.
 the main landing page of website consists of all the campgrounds which the users have entered but a user can only edit or delete thier own campgrounds.
 
-###YelpCamp STACK
+### YelpCamp STACK
 - MongoDB (Non relational database)
 - Expressjs
 - NodeJS ( JS runtime enviroment to run JS in Backend ).
@@ -17,7 +17,7 @@ Other tools
 
 
 
-##Frontend implementation 
+## Frontend implementation 
 
 - HTML5
 - CSS3
@@ -30,7 +30,7 @@ bootstrap classes are applied to style buttons, fit images to grid, make the gri
 The basic html header and footer are added into partial directory ( a single directory of html structure , to be included on other pages of the website using an 'include' tag ).
 
 
-##Backend Implementation 
+## Backend Implementation 
 - Expressjs ( a node package )
 - NodeJS ( Runtime for js in backend ).
 
@@ -60,7 +60,7 @@ A different sets of routes are made for comments to Edit, Add, delete the commen
 
 
 
-##Database 
+## Database 
 - MongoDB (NON- Relational DB)
 Here mongodb is implemented using a node package 'mongoose' to make request to mongodb server using JS.
 
