@@ -22,7 +22,7 @@ Other tools
 - HTML5
 - CSS3
 - Javascript
-- Bootstrap
+- Bootstrap 4
 
 The main landing page with all campgrounds is made using the bootstrap grid system ( it divides the browser page into rows and columns forming grid for each campground ). 
 bootstrap classes are applied to style buttons, fit images to grid, make the grid responsive ( automatically done by bootstrap ), add padding and border to images.
